@@ -1,4 +1,4 @@
-# Projet – Communication TCP avec Sockets Java (Master 1 - Programmation Java Distribuée)
+# Projet – Communication TCP avec Sockets Java - M1 Programmation Java Distribuée
 
 ## Description
 
