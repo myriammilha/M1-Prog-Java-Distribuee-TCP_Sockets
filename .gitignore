@@ -1,0 +1,25 @@
+# Java
+*.class
+*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dossiers de test locaux
+test_c/
+test_s/
+
+# Build
+out/
+bin/
+target/
+
