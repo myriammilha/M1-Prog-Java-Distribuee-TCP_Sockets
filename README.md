@@ -14,9 +14,13 @@ Le serveur écoute sur un port et accepte des connexions, les clients se connect
 ## Compilation
 
 ```bash
-javac DirectorySyncServer.java
-javac DirectorySyncClient.java
+javac src/*.java
+```
 
+OU
+
+```bash
+make
 ```
 
 ## Exécution
@@ -24,13 +28,24 @@ javac DirectorySyncClient.java
 ### Lancer le serveur
 
 ```bash
-java DirectorySyncServer --port=12345
+java -cp src DirectorySyncServer --port=12345
 ```
+
+OU
+
+```bash
+make server
 
 ### Lancer un client
 
 ```bash
-java DirectorySyncClient --serverIp=127.0.0.1 --serverPort=12345
+java -cp src DirectorySyncClient --serverIp=127.0.0.1 --serverPort=12345
+```
+
+OU
+
+```bash
+make client
 ```
 
 ## Fonctionnement
